@@ -1,0 +1,50 @@
+﻿<Window x:Class="Test.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test.View" 
+        mc:Ignorable="d" 
+        Title="MainWindow" Height="470" Width="500" >
+
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid 
+                ItemsSource="{Binding Items}"
+                SelectedItem="{Binding SelectedItem}"
+                CanUserAddRows="False" CanUserDeleteRows="False"
+                AutoGenerateColumns="False"
+                SelectionMode="Extended">
+                <DataGrid.Columns >
+                    <DataGridTextColumn Header="Name" Binding="{Binding name}" Width="4*"/>
+                    <DataGridTextColumn Header="Artikelnummer" Binding="{Binding articlenumber}" Width="4*"/>
+                    <DataGridTextColumn Header="Stück" Binding="{Binding piece}" Width="2*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StackPanel Grid.Column="1" >
+                <Label Content="Name" />
+                <TextBox Margin="5,0,5,15" Text="{Binding TextBoxname, UpdateSourceTrigger=PropertyChanged}" />
+                <Label Content="Artikelnummer" />
+                <TextBox Margin="5,0,5,15" Text="{Binding TextBoxarticlenumber, UpdateSourceTrigger=PropertyChanged}" />
+                <Label Content="Stück" />
+                <TextBox Margin="5,0,5,15" Text="{Binding TextBoxpiece, UpdateSourceTrigger=PropertyChanged}" />
+                <Button Content="Auswählen" Margin="5,0,5,15" Name="Auswählen" Command="{Binding SelectingButtonCommand}"/>
+                <Button Content="Editieren" Margin="5,0,5,15" Name="Editieren" Command="{Binding EditingButtonCommand}"/>
+                <Button Content="Hinzufügen" Margin="5,0,5,15" Name="Hinzufügen" Command="{Binding AddingButtonCommand}"/>
+                <Button Content="Löschen" Margin="5,0,5,15" Name="Löschen" Command="{Binding DeletingButtonCommand}"/>
+                <Button Content="Laden" Margin="5,0,5,15" Name="Laden" Command="{Binding LoadingButtonCommand}"/>
+                <Button Content="Speichern" Margin="5,0,5,15" Name="Speichern" Command="{Binding SavingButtonCommand}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
