@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "apKv2BKZuZk=",
+  "dgSpecHash": "crakAKsd+Do=",
   "success": true,
-  "projectFilePath": "W:\\Visual Studio\\Aufgaben\\Test - New\\Test.csproj",
+  "projectFilePath": "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikolas.bautz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nikolas.bautz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
