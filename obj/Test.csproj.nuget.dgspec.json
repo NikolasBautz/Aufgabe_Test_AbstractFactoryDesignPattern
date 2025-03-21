@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj": {}
+    "W:\\10_CSharp\\10_Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj": {}
   },
   "projects": {
-    "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj": {
+    "W:\\10_CSharp\\10_Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj",
+        "projectUniqueName": "W:\\10_CSharp\\10_Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj",
+        "projectPath": "W:\\10_CSharp\\10_Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\Test.csproj",
         "packagesPath": "C:\\Users\\nikolas.bautz\\.nuget\\packages\\",
-        "outputPath": "W:\\Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\obj\\",
+        "outputPath": "W:\\10_CSharp\\10_Visual Studio\\Aufgaben\\Aufgabe_Test_AbstractFactoryDesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BMZTestSystems/_packaging/BMZTestSystems/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
